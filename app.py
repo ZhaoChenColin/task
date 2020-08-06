@@ -11,7 +11,7 @@ if ENV=='dev':
     app.config['SQLALCHEMY_DATABASE_URI']='mysql+pymysql://root:qt123123...@localhost/task_db'
 else:
     app.debug=False
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://ba7a4a4debe9a0:dcd84155@us-cdbr-east-02.cleardb.com/heroku_2e33ed2154863c6?reconnect=true'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://ba7a4a4debe9a0:dcd84155@us-cdbr-east-02.cleardb.com/heroku_2e33ed2154863c6?reconnect=true'
 
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS']=False
 
