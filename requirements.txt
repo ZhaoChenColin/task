@@ -6,3 +6,4 @@ PyMySQL==0.10.0
 SQLAlchemy==1.3.13
 WTForms==2.3.3
 gunicorn
+pymysql
