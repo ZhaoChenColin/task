@@ -1,4 +1,4 @@
-from main import app, db
+from app import app, db
 from flask import render_template, url_for, flash, get_flashed_messages, redirect, request
 from datetime import datetime
 
